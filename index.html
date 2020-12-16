@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+  
+  <title>Frontend Mentor | social-media-dashboard-with-theme-switcher-master</title>
+
+</head>
+<body>
+  <div class="top-bg" id="topbackg">
+    <div class="container">
+      <header class="main-header">
+        <h1 id="title">Social Media Dashboard </h1>
+        <span id="subTitle" class="" >Total Followers: 23,004</span>
+        <div class="mode">
+          <p>Dark Mode</p>
+          <div>
+            <input class="mode-switch" type="checkbox" id="toggle" onchange="toggler()">
+          </div>
+        </div>
+      </header>
+      <section class="main-section">
+        <div class="followers">
+          <div class="handle">
+            <img src="images/icon-facebook.svg">
+            <p>@nathanf</p>
+          </div>
+          <p class="num">1987</p>
+          <p>Followers</p>
+          <div class="pos">
+            <img src="images/icon-up.svg">
+            <p>12 Today</p>
+          </div>
+        </div>
+        <div class="followers">
+          <div class="handle">
+            <img src="images/icon-twitter.svg">
+            <p>@nathanf</p>
+          </div>
+          <p class="num">1044</p>
+          <p>Followers</p>
+          <div class="pos">
+            <img src="images/icon-up.svg">
+            <p>99 Today</p>
+          </div>
+        </div>
+        <div class="followers">
+          <div class="handle">
+            <img src="images/icon-instagram.svg">
+            <p>@realnathanf</p>
+          </div>
+          <p class="num">11k</p>
+          <p>Followers</p>
+          <div class="pos">
+            <img src="images/icon-up.svg">
+            <p>1099 Today</p>
+          </div>
+        </div>
+        <div class="followers">
+          <div class="handle">
+            <img src="images/icon-youtube.svg">
+            <p>Nathan F.</p>
+          </div>
+          <p class="num">8239</p>
+          <p>Followers</p>
+          <div class="pos">
+            <img src="images/icon-down.svg">
+            <p>144 Today</p>
+          </div>
+        </div>
+      </section>
+      <section class="btm-section">
+        <h2>Overview - Today</h2>
+        <div class="overview-section">
+          <div class="holder">
+            <div class="overview">
+              <div class="first">
+                <p>Page Views</p>
+                <img src="images/icon-facebook.svg">
+              </div>
+              <div class="second">
+                <p>87</p>
+                <div class="rate1"><img src="images/icon-up.svg"><p>3%</p></div>
+              </div>
+            </div>
+            <div class="overview">
+              <div class="first">
+                <p>Retweets</p>
+                <img src="images/icon-twitter.svg">
+              </div>
+              <div class="second">
+                <p>117</p>
+                <div class="rate2"><img src="images/icon-up.svg"><p>303%</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="overview">
+              <div class="first">
+                <p>Likes</p>
+                <img src="images/icon-facebook.svg">
+              </div>
+              <div class="second">
+                <p>52</p>
+                <div class="rate3"><img src="images/icon-down.svg"><p>2%</p></div>
+              </div>
+            </div>
+            <div class="overview">
+              <div class="first">
+                <p>Likes</p>
+                <img src="images/icon-twitter.svg">
+              </div>
+              <div class="second">
+                <p>507</p>
+                <div class="rate4"><img src="images/icon-up.svg"><p>553%</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="overview">
+              <div class="first">
+                <p>Likes</p>
+                <img src="images/icon-instagram.svg">
+              </div>
+              <div class="second">
+                <p>5462</p>
+                <div class="rate5"><img src="images/icon-up.svg"><p>2257%</p></div>
+              </div>
+            </div>
+            <div class="overview">
+              <div class="first">
+                <p>Likes</p>
+                <img src="images/icon-youtube.svg">
+              </div>
+              <div class="second">
+                <p>107</p>
+                <div class="rate6"><img src="images/icon-down.svg"><p>19%</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="holder">
+            <div class="overview">
+              <div class="first">
+                <p>Profile Views</p>
+                <img src="images/icon-instagram.svg">
+              </div>
+              <div class="second">
+                <p>52k</p>
+                <div class="rate7"><img src="images/icon-up.svg"><p>1375%</p></div>
+              </div>
+            </div>
+            <div class="overview">
+              <div class="first">
+                <p>Total Views</p>
+                <img src="images/icon-youtube.svg">
+              </div>
+              <div class="second">
+                <p>1407</p>
+                <div class="rate8"><img src="images/icon-down.svg"><p>12%</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">OLUWATOBILOBA BAMISEBI</a>.
+    </div>
+  </div>
+  
+</body>
+</html>
